@@ -1,0 +1,39 @@
+body{
+    background-color: beige;
+    
+}
+header{
+    text-align: center;
+    font-size:xx-large;
+}
+p{
+    padding-top: 15%;
+    
+}
+li{
+    text-align: center;
+}
+div{
+  
+        margin: auto;
+        width: 20%;
+        border: 3px solid green;
+        padding: 50px;
+        margin-left: 47%;
+        border: 10px solid rgb(203, 57, 57);
+        border-top-color: rgb(173, 191, 38);
+        border-bottom-color: rgb(120, 181, 55);
+        background-color: rgb(144, 15, 243);
+        animation:spin 1s linear alternate-reverse;
+       
+        height:150px;
+       width: 90px;
+}
+@keyframes spin {
+    0%{
+          transform: rotate(0deg);
+    }
+    100%{
+         transform: rotate(360deg);
+      }
+}
